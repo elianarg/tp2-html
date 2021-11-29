@@ -1,0 +1,52 @@
+ .alignement {
+        float: right;
+        margin-top: 9px;
+    }
+
+    .titles {
+
+        font: arial;
+        color: white;
+        text-align: left;
+        font-size: 20px;
+
+
+    }
+
+    .boite {
+        margin-left: -40px;
+        width: 500px;
+        height: 500px;
+        background-color: rgba(138, 141, 141, 0.2);
+        border-radius: 8px;
+        color-interpolation-filters: white;
+
+
+    }
+
+    li {
+        display: block;
+        position: relative;
+        width: 200px;
+        height: 30px;
+
+    }
+
+    ul.sous_menu {
+        display: none;
+        color: blue;
+    }
+
+    li:hover {
+        color: blue;
+        background-color: black;
+        height: auto;
+
+    }
+
+    li:hover>ul.sous_menu {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 80%;
+    }
